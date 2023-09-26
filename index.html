@@ -18,24 +18,32 @@
 <body>
 
     <main class="container">
-        <div class="raiting-state">
-            <img src="./images//icon-star.svg" alt="">
+        <div id="scoreCard" class="raiting-state">
+            <div class="raiting-state--image">
+                <img src="./images//icon-star.svg" alt="">
+            </div>
             <h1 class="raiting-state--title">How did we do?</h1>
             <p class="raiting-state--text">
                 Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
             </p>
             <div class="raiting-state--raiting">
-                1 , 2 , 3 , 4 , 5
+                <ul>
+                    <li class="raiting-state--evaluation">1</li>
+                    <li class="raiting-state--evaluation">2</li>
+                    <li class="raiting-state--evaluation">3</li>
+                    <li class="raiting-state--evaluation">4</li>
+                    <li class="raiting-state--evaluation">5</li>
+                </ul>
             </div>
-            <button class="raiting-state--button">
+            <button id="sendEvaluation" class="raiting-state--button">
               SUBMIT
           </button>
         </div>
-        <div class="tank-you-state">
+        <div id="resultCard" class="thank-you-state">
             <img src="./images/illustration-thank-you.svg" alt="">
-            <p> You selected 4 out of 5 </p>
-            <h1>Thank you!</h1>
-            <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+            <p id="resultScore" class="thank-you-state--score"> You selected 4 out of 5 </p>
+            <h2 class="thank-you-state--title">Thank you!</h2>
+            <p class="thank-you-state--text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
         </div>
     </main>
 
