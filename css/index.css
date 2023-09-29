@@ -67,6 +67,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
+    list-style: none;
 }
 
 .raiting-state--raiting ul li {
