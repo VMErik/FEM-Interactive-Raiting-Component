@@ -13,15 +13,15 @@ Users should be able to:
 
 ### Screenshot
 The are the solution images
-![](./design/desktop-solution-1.png.jpg)  
+![](./design/desktop-solution-1.png)  
 
-![](./design/desktop-solution-2.png.jpg)  
+![](./design/desktop-solution-2.png)  
 
 
 ### Links
 
 
-- Live Site URL: [View Live on Vercel](https://your-live-site-url.com)
+- Live Site URL: [View Live on Vercel](https://fem-interactive-raiting-component.vercel.app/)
 
 ## My process
 
